@@ -133,10 +133,11 @@ nav ul li a#current{
 	}
 	
 	#description{
-		width: 100%;
+		width: 95%;
 		margin: auto;
+		float: left;
 		margin-left: 10px;
-		margin-right: 10px;
+		margin-right: 100px;
 	}
 	
 }
