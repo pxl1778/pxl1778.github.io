@@ -278,6 +278,7 @@ footer a{
 	#backgroundimage{
 		height: 400px;
 		position: absolute;
+		overflow: hidden;
 	}
 	
 	.projectblock{
@@ -372,6 +373,7 @@ footer a{
 		height: 400px;
 		top: 130px;
 		position: absolute;
+		overflow: hidden;
 	}
 	
 	.navoffset{
