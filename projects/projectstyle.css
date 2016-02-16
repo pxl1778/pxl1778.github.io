@@ -93,6 +93,13 @@ nav ul li a#current{
 	transition: 1s;
 }
 
+footer a{
+	font-size: 15pt;
+	font-family: 'Droid Sans', sans-serif;
+	color: white;
+	text-decoration: none;
+}
+
 #description{
 		width: 912px;
 		margin: auto;
@@ -107,6 +114,14 @@ nav ul li a#current{
 		color: #273045;
 		line-height: 35px;
 	}
+
+footer{
+	width: 100%;
+	color: #273045;
+	text-align: center;
+	height: 100px;
+	float: left;
+}
 
 @media screen and (max-width: 992px)
 {
