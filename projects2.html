@@ -7,6 +7,8 @@
 	<meta name="viewport" content="width=device-width">
 	<title>Projects</title>
 	<link type="text/css" rel="stylesheet" href="style.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src = "projects.js"></script>
 </head>
 <body>
 	<div>
@@ -31,39 +33,50 @@
 		</nav>
 	</div>
 	<div class="navoffset"></div>
-	<div id="imagebackground" style="background-image: url('indexPhoto.jpg');"></div>
+	
+	<div id="armoirebg" class="imagebackground" style="transform: scaleX(1); display: none; opacity: 1; background-image: url('projectimages/armoireshot2.png'); filter: blur(5px); "></div>
+	<div id="asteroidsbg" class="imagebackground" style="transform: scaleX(1); display: none; opacity: 1; background-image: url('projectimages/asteroidsshot2.png');"></div>
+	<div id="audiovisualizerbg" class="imagebackground" style="transform: scaleX(1); display: none; opacity: 1; background-image: url('projectimages/audiovisualizershot3.png');"></div>
+	<div id="switchbladebg" class="imagebackground" style="transform: scaleX(1); display: none; opacity: 1; background-image: url('projectimages/switchbladeshot2.png');"></div>
+	<div id="wordventurebg" class="imagebackground" style="transform: scaleX(1); display: none; opacity: 1; background-image: url('projectimages/wordventureshot1.png');"></div>
+	<div style="opacity: .4; background-color: blue; left: 0; top: 55px; position: fixed; width: 100%; height: 100%; z-index: -1;"></div>
+	
 	<div id="content">
 		<ul id="projectList">
 			<li>
-				<div class="projectbubble">
+				<div id="armoirebubble"class="projectbubble">
 				<a href = "projects/armoire.html">
 			<img src="projectimages/armoirebubbleimage.png" alt="Armoire Screenshot" title="Armoire" />
 				</a>
 			</div>
 			<a href = "projects/armoire.html"><h1>Armoire</h1></a>
 				</li>
-			<li><div class="projectbubble">
+				
+			<li><div id="asteroidsbubble" class="projectbubble">
 				<a href = "projects/asteroids.html">
 				<img src="projectimages/asteroidsbubbleimage.png" alt="Asteroids Screenshot" title="Asteroids" />
 				</a>
 			</div>
 			<a href = "projects/asteroids.html"><h1>Asteroids</h1></a>
 			</li>
-			<li><div class="projectbubble">
+			
+			<li><div id="audiovisualizerbubble" class="projectbubble">
 			<a href="projects/audiovisualizer.html">
 			<img src="projectimages/audiovisualizerbubbleimage.png" alt="Audio Visualizer Screenshot" title="Audio Visualizer" />
 				</a>
 			</div>
 			<a href="projects/audiovisualizer.html"><h1>Audio Visualizer</h1></a>
 			</li>
-			<li><div class="projectbubble">
+			
+			<li><div id="switchbladebubble" class="projectbubble">
 			<a href="projects/switchblade.html">
 			<img src="projectimages/switchbladebubbleimage.jpg" alt="Switchblade Screenshot" title="Switchblade" />
 				</a>
 			</div>
 			<a href="projects/switchblade.html"><h1>SwitchBlade</h1></a>
 			</li>
-			<li><div class="projectbubble">
+			
+			<li><div id="wordventurebubble" class="projectbubble">
 			<a href="projects/wordventure.html">
 			<img src="projectimages/wordventurebubbleimage.png" alt="Wordventure Screenshot" title="Wordventure" />
 				</a>
