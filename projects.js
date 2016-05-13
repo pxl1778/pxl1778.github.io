@@ -2,6 +2,16 @@
 
 window.onload = function(){
 	var current = "";
+	document.getElementById("aquaticparentingbubble").onmouseover = function(e){
+		if(current != "#aquaticparentingbg")
+		{
+			$('#aquaticparentingbg').css("z-index", "-2");
+			$("#aquaticparentingbg").fadeIn("slow");
+			$(current).css("z-index", "-3");
+			$(current).fadeOut();
+			current = "#aquaticparentingbg";
+		}
+	}
 	document.getElementById("armoirebubble").onmouseover = function(e){
 		if(current != "#armoirebg")
 		{
