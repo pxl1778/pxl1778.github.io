@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Snake</title>
+
+<style>
+#canvasdiv{
+	display: block;
+	margin: auto;
+}
+canvas{
+	display:block;
+	margin: auto;
+	border: 1px solid black;
+}
+h1{
+	text-align: center;
+	margin-top: 75px;
+	font-family: 'Play', sans-serif;
+	color: #DBEBE7;
+}
+</style>
+
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
+<link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<nav>
+			<a href="../../index.html">
+			<img src="../../logotransparent.png" alt="logo" style="height: 100%; width: auto;">
+			</a>
+			<ul>
+				<li>
+					<div><a id="current" href="../../index.html">Home</a></div>
+				</li>
+				<li>
+					<div><a href="../../projects.html">Projects</a></div>
+				</li>
+				<li>
+					<div><a href="../../resume.html">Resume</a></div>
+				</li>
+				<li>
+					<div><a href="../../about.html">About</a></div>
+				</li>
+			</ul>
+		</nav>
+	<script src="keys.js"></script>
+	<script src="Circle.js"></script>
+	<script src="sound.js"></script>
+	<script src="snake.js"></script>
+	
+	<h1>Snake</h1>
+	<div id="canvasdiv">
+		<canvas height="600" width="800"></canvas>
+		<audio id="effectAudio" controls style="display:none;"></audio>
+	</div>
+</body>
+</html>

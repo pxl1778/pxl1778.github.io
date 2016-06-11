@@ -42,6 +42,16 @@ window.onload = function(){
 			current = "#audiovisualizerbg";
 		}
 	}
+	document.getElementById("snakebubble").onmouseover = function(e){
+		if(current != "#snakebg")
+		{
+			$('#snakebg').css("z-index", "-2");
+			$("#snakebg").fadeIn("slow");
+			$(current).css("z-index", "-3");
+			$(current).fadeOut();
+			current = "#snakebg";
+		}
+	}
 	document.getElementById("switchbladebubble").onmouseover = function(e){
 		if(current != "#switchbladebg")
 		{

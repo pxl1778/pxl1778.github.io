@@ -114,6 +114,14 @@ footer a{
 		color: #273045;
 		line-height: 35px;
 	}
+	
+p{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 20px;
+	text-indent: 40px;
+	color: #273045;
+	line-height: 35px;
+}
 
 footer{
 	width: 100%;
