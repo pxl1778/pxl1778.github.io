@@ -2,6 +2,26 @@
 
 window.onload = function(){
 	var current = "";
+	document.getElementById("aperfectyearbubble").onmouseover = function(e){
+		if(current != "#aperfectyearbg")
+		{
+			$('#aperfectyearbg').css("z-index", "-2");
+			$("#aperfectyearbg").fadeIn("slow");
+			$(current).css("z-index", "-3");
+			$(current).fadeOut();
+			current = "#aperfectyearbg";
+		}
+	}
+	document.getElementById("sense3bubble").onmouseover = function(e){
+		if(current != "#sense3bg")
+		{
+			$('#sense3bg').css("z-index", "-2");
+			$("#sense3bg").fadeIn("slow");
+			$(current).css("z-index", "-3");
+			$(current).fadeOut();
+			current = "#sense3bg";
+		}
+	}
 	document.getElementById("aquaticparentingbubble").onmouseover = function(e){
 		if(current != "#aquaticparentingbg")
 		{
