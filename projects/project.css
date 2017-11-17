@@ -61,7 +61,7 @@ p{
 	font-family: 'Droid Sans', sans-serif;
 	font-size: 20px;
 	text-indent: 40px;
-	color: #273045;
+	color: #DBEBE7;
 	line-height: 35px;
 }
 
@@ -112,6 +112,12 @@ a{
     border-left: 2px solid white;
     padding-left: 20px;
     display: inline-block;
+}
+
+@media screen and (max-width: 992px){
+	#margins{
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 720px){

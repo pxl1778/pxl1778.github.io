@@ -5,6 +5,14 @@ var fadeStart=50// 100px scroll or less will equiv to 1 opacity
 ;
 window.onload = function(){
   fading = $('header');
+  //title of page
+  document.title = "put the project title here";
+  //image of header
+  $('header').css('background-image', "url('../projectimages/aquaticparentingbg.png')");
+  //title of titlebubble
+  $('#bubbleTitle').text("title");
+  //content
+  $('#margins').append("<p></p>");
 }
 
 $(window).on('scroll', function(){
