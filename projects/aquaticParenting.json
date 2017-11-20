@@ -1,0 +1,13 @@
+{
+    "projects": 
+    {
+        "aquaticParenting": {
+            "title": "Aquatic Parenting",
+            "backgroundImage": "../projectimages/aquaticparentingbg.png",
+            "githubLink": "https://github.com/pxl1778/FishFeeder",
+            "playLink": "https://people.rit.edu/pxl1778/AquaticParenting/",
+            "content": "<p>HERE IS MY CONTENT</p><p>AND ANOTHER PARAGRAPH</p> "
+        }
+    }
+    
+}

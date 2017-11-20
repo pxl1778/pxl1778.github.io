@@ -53,16 +53,16 @@ nav ul li a#current{
 
 #margins{
 	margin: auto;
-    text-align: center;
 	width: 992px;
+	padding: 20px;
 }
 
 p{
 	font-family: 'Droid Sans', sans-serif;
 	font-size: 20px;
-	text-indent: 40px;
 	color: #DBEBE7;
 	line-height: 35px;
+	text-align: left;
 }
 
 h1{
@@ -162,3 +162,8 @@ a{
 		width: 100%;
 		background-color: white;
 	}
+
+	p{
+		font-size: 11pt;
+	}
+}
