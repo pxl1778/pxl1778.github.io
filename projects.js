@@ -2,16 +2,36 @@
 
 window.onload = function(){
 	var current = "";
-	document.getElementById("aperfectyearbubble").onmouseover = function(e){
-		if(current != "#aperfectyearbg")
+	document.getElementById("dogsoulsbubble").onmouseover = function(e){
+		if(current != "#dogsoulsbg")
 		{
-			$('#aperfectyearbg').css("z-index", "-2");
-			$("#aperfectyearbg").fadeIn("slow");
+			$('#dogsoulsbg').css("z-index", "-2");
+			$("#dogsoulsbg").fadeIn("slow");
 			$(current).css("z-index", "-3");
 			$(current).fadeOut();
-			current = "#aperfectyearbg";
+			current = "#dogsoulsbg";
 		}
 	}
+	document.getElementById("huebertsperilbubble").onmouseover = function(e){
+		if(current != "#huebertsperilbg")
+		{
+			$('#huebertsperilbg').css("z-index", "-2");
+			$("#huebertsperilbg").fadeIn("slow");
+			$(current).css("z-index", "-3");
+			$(current).fadeOut();
+			current = "#huebertsperilbg";
+		}
+	}
+	// document.getElementById("aperfectyearbubble").onmouseover = function(e){
+	// 	if(current != "#aperfectyearbg")
+	// 	{
+	// 		$('#aperfectyearbg').css("z-index", "-2");
+	// 		$("#aperfectyearbg").fadeIn("slow");
+	// 		$(current).css("z-index", "-3");
+	// 		$(current).fadeOut();
+	// 		current = "#aperfectyearbg";
+	// 	}
+	// }
 	document.getElementById("sense3bubble").onmouseover = function(e){
 		if(current != "#sense3bg")
 		{

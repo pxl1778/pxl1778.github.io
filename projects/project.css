@@ -52,9 +52,8 @@ nav ul li a#current{
 }
 
 #margins{
-	margin: auto;
 	width: 992px;
-	padding: 20px;
+	margin: auto;
 }
 
 p{
@@ -86,7 +85,7 @@ header {
 header div{
     background-color: #3458a4; 
     border-radius: 100%;
-    opacity: .8; 
+    opacity: .9; 
     width: 400px; 
     height: 400px;
     display:flex;
@@ -108,15 +107,42 @@ a{
     margin-right: 20px;
 }
 
+.disabledLink{
+	color: #000000;
+	cursor: default;
+}
+
 .lineseparate{
     border-left: 2px solid white;
     padding-left: 20px;
     display: inline-block;
 }
 
+.topImage{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+.contentImageLeft{
+	text-align: inline;
+	float: left;
+	margin: 20px;
+	margin-left: 0px;
+}
+
+.contentImageRight{
+	text-align: inline;
+	float: right;
+	margin: 20px;
+	margin-right: 0px;
+}
+
 @media screen and (max-width: 992px){
 	#margins{
-		width: 100%;
+		margin-left: 20px;
+		margin-right: 20px;
+		width: auto;
 	}
 }
 
@@ -130,6 +156,22 @@ a{
 	}
 }
 
+
+@media screen and (max-width: 600px){
+	.contentImageLeft{
+		float: none;
+		display: block;
+		text-align: center;
+		margin: auto;
+	}
+	
+	.contentImageRight{
+		float: none;
+		display: block;
+		text-align: center;
+		margin: auto;
+	}
+}
 @media screen and (max-width: 480px){
 	nav{
 		width: 100%;

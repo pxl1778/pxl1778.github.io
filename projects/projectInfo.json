@@ -1,0 +1,64 @@
+{
+    "projects": 
+    [
+        {
+            "urlTitle": "dogsouls",
+            "title": "Dog Souls",
+            "backgroundImage": "../projectimages/dogsoulsbg.png",
+            "githubLink": "https://github.com/k-idzik/Dog-Souls",
+            "playLink": "",
+            "video": "",
+            "images": [],
+            "content": ["<p>This game was a project I worked on for a class with 4 other people using Unity. It's a top down action game where the player plays as a dog after an apocalypse where all of the humans are gone and there are only strange mechanical beasts that you must fend off. The player moves around the world trying to find the next boss battle and the goal is to beat them all.</p>",
+                        "<p>My role was to integrate attacking and animations into the main character. I had learned how to fix collision boxes onto frames of animations from the previous game I worked on in Unity, Huebert's Peril. So this wasn't terribly difficult to impleent in this project. I also helped with some of the character's movements and attacks.</p> ",
+                        "<p>Another role I had in the project was to make the animations for the bosses and player character. I started with the dog and then worked my way to the bosses, doing both the wizard boss and only being able to finish the base for the bird boss. Time was tight during the short weeks we had to make this and I wasn't able to complete as much art as I would've liked. I learned how much time it would take to create so many assets and I didn't schedule myself appropriately, but I can appreciate that now.</p>"]
+        },
+        {
+            "urlTitle": "huebertsperil",
+            "title": "Huebert's Peril",
+            "backgroundImage": "../projectimages/huebertsperilbg.png",
+            "githubLink": "https://github.com/pxl1778/GDD-II-Project-2",
+            "playLink": "",
+            "video": "",
+            "images": [],
+            "content": ["<p>Huebert's Peril is a 2D platformer made in Unity with a team size of five. The player controls the character Huebert who is navigating a dungeon to find all of the pigments of color to revive his dog. There are enemies to fight against and obstacles to surpass, but there's a twist. Every room you enter changes color which affects different abilities of the player and enemies. Once te player collects all six of the colored pigments, the dog is rescued and Huebert escapes his dog's peril!</p>",
+                        "<p>I took care of the character's movements, attacks, animations, collisions, and color changes. It was my first time creating a 2D character player in Unity and I had some issues tweaking the physics for it. In the end, I'm not entirely happy with how the movements are, but for the time alotted, it worked fine. I created animations for the charcter's attacks that had different sized collision boxes for each frame. Implementing these became fun to do once I got the hang of it. I also worked on changing colors between rooms and on the screen in each room. Our original idea involved color changing mechanics that would change the way the player had to move around and we succeeded!</p> ",
+                        "<p>We only had about 5 weeks to create this game and I'm very impressed with how much we were all able to get done in that time. I would love to work with my team on a project like this in the future.</p> "]
+        },
+        {
+            "urlTitle": "aquaticParenting",
+            "title": "Aquatic Parenting",
+            "backgroundImage": "../projectimages/aquaticparentingbg.png",
+            "githubLink": "https://github.com/pxl1778/FishFeeder",
+            "playLink": "https://people.rit.edu/pxl1778/AquaticParenting/",
+            "video": "",
+            "images": [],
+            "content": ["<p>This is a game that I made with a friend for a class project using Javascript, Canvas, and Phaser.js. My friend, Sara Artese, and I wanted to create a game where the player could casually take care of fish with little stressful and feel at peace. I believe we achieved that even though we weren't able to fulfill exactly what we wanted. Requirements for the project forced us to add more game elements and a lose state which we didn't want the player to have to deal with. In the end, it made for a more interesting experience for players.</p>",
+                        "<p>I worked on the fish's mechanics and movements, the food and poop, balancing the fish and food versus money gain, and I made all of the sprites, backgrounds, and animations. We used Phaser.js to display the sprites and give them physics attributes which was easy to learn. The animations were also easily implemented because of this useful library. We wanted to capture the feeling of taking care of a pet, so we thought cleaning the tank would be a good way to interact, hence the poop. We enjoyed how humorous it was to get money from cleaning up after the fish and made creating the shop system fun.</p> "]
+        },
+        {
+            "urlTitle": "asteroids",
+            "title": "Asteroids",
+            "backgroundImage": "../projectimages/asteroidsbg.png",
+            "githubLink": "",
+            "playLink": "",
+            "video": "",
+            "images": ["<img src='../projectimages/asteroidstitlescreen.png'>", "<img src='../projectimages/asteroidsshot1'>", "<img src='../projectimages/asteroidsshot2'>"],
+            "content": ["<p>What started as a class project to recreate Asteroids in Processing turned into my own solo passion project. I was inspired by this assignment to make a much deeper game than the original which included ship upgrades, different control styles, and different obstacles to shoot.</p>",
+                        "<p>While I was working, I decided to ask my brother, Aaron Lockhart, if he could create sounds and music for the game. He was able to create the calm, relaxing audio in the game that really makes the atmosphere. Making Asteroids taught me how to use vectors for steering and movement and also I learned a lot about implementing audio into Processing.</p> "]
+        },
+        {
+            "urlTitle": "armoire",
+            "title": "Armoire",
+            "backgroundImage": "../projectimages/armoirebg.png",
+            "githubLink": "https://github.com/pxl1778/Armoire",
+            "playLink": "",
+            "video": "",
+            "images": ["<img src='../projectimages/armoiretitlescreen.png'>", "<img src='../projectimages/armoireshot1'>", "<img src='../projectimages/armoireshot2'>"],
+            "content": ["<p>Armoire is an action adventure 2D platforming game where you grow bigger by finding armor and putting it on without taking any off and battling other enemies for their armor. I had been wanting to make a game with this concept of gaining more and more armor to power up for a long time, so I was really excited to be able to work on this project with some friends to start off a prototype.</p>",
+                        "<p>I worked on this game with two other people in Monogame in Visual Studio for the Imagine Cup 2015 hackathon that the Rochester Institute of Technology was holding locally. I worked on all of the gameplay mechanics and programming the animations.</p> ",
+                        "<p>One of our biggest challenges was scaling the camera properly so the player stayed in the focus of the camera and got bigger in proportion while everything else appeared smaller. I learned a lot about the camera and spritebatch drawing in Monogame. I do plan on continuing the game to have a full adventure game when I'm done with it.</p> "]
+        }
+    ]
+    
+}
