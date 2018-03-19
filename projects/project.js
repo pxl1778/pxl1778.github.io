@@ -45,6 +45,9 @@ window.onload = function(){
                 if(data.projects[i].images.length >0){
                     $('#margins').append("<div class='topImage'>" + data.projects[i].images[0] + "</div>");
                 }
+                if(data.projects[i].video != ""){
+                    $('#margins').append('<div class="youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/'+ data.projects[i].video +'" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>');
+                }
                 for(var j = 0; j < data.projects[i].content.length; j++){
                     if(data.projects[i].images[j+1] != undefined){
                         if(j % 2 == 0){

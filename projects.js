@@ -2,6 +2,26 @@
 
 window.onload = function(){
 	var current = "";
+	document.getElementById("paperbattlebubble").onmouseover = function(e){
+		if(current != "#paperbattlebg")
+		{
+			$('#paperbattlebg').css("z-index", "-2");
+			$("#paperbattlebg").fadeIn("slow");
+			$(current).css("z-index", "-3");
+			$(current).fadeOut();
+			current = "#paperbattlebg";
+		}
+	}
+	document.getElementById("nextbigadventurebubble").onmouseover = function(e){
+		if(current != "#nextbigadventurebg")
+		{
+			$('#nextbigadventurebg').css("z-index", "-2");
+			$("#nextbigadventurebg").fadeIn("slow");
+			$(current).css("z-index", "-3");
+			$(current).fadeOut();
+			current = "#nextbigadventurebg";
+		}
+	}
 	document.getElementById("dogsoulsbubble").onmouseover = function(e){
 		if(current != "#dogsoulsbg")
 		{
@@ -72,7 +92,7 @@ window.onload = function(){
 			current = "#asteroidsbg";
 		}
 	}
-	document.getElementById("audiovisualizerbubble").onmouseover = function(e){
+	/*document.getElementById("audiovisualizerbubble").onmouseover = function(e){
 		if(current != "#audiovisualizerbg")
 		{
 			$('#audiovisualizerbg').css("z-index", "-2");
@@ -81,7 +101,7 @@ window.onload = function(){
 			$(current).fadeOut();
 			current = "#audiovisualizerbg";
 		}
-	}
+	}*/
 	document.getElementById("snakebubble").onmouseover = function(e){
 		if(current != "#snakebg")
 		{
@@ -92,7 +112,7 @@ window.onload = function(){
 			current = "#snakebg";
 		}
 	}
-	document.getElementById("switchbladebubble").onmouseover = function(e){
+	/*document.getElementById("switchbladebubble").onmouseover = function(e){
 		if(current != "#switchbladebg")
 		{
 			$('#switchbladebg').css("z-index", "-2");
@@ -111,5 +131,5 @@ window.onload = function(){
 			$(current).fadeOut();
 			current = "#wordventurebg";
 		}
-	}
+	}*/
 }

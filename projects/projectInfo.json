@@ -2,6 +2,26 @@
     "projects": 
     [
         {
+            "urlTitle": "paperbattle",
+            "title": "Paper Battle",
+            "backgroundImage": "../projectimages/paperbattlebg.png",
+            "githubLink": "",
+            "playLink": "http://www.nick.com/mash-ups/games/nickelodeon-paper-battle-multiplayer/",
+            "video": "uc_XWIEEJWI",
+            "images": [],
+            "content": ["<p>Nickelodeon Paper Battle is a multiplayer online fighting game where the players battle each other with items found in Nickelodeon shows. I worked with one programmer and three artists at Workinman Interactive to create this HTML5 game.</p><p>I worked on the scoring system, creating many of the items and how the affect players, and implementing the UI in game and in the menus. This was the second game I worked on at Workinman, so I was used to the engine we were using and made it easy to get the game completed quickly.</p>"]
+        },
+        {
+            "urlTitle": "nextbigadventure",
+            "title": "Spongebob's Next Big Adventure",
+            "backgroundImage": "../projectimages/nextbigadventurebg.png",
+            "githubLink": "",
+            "playLink": "http://www.nick.com/mash-ups/games/spongebobs-next-big-adventure/",
+            "video": "",
+            "images": [],
+            "content": ["<p>I worked on this project while working at Workinman Interactive. I worked with two other programmers and one artist to convert this game from a flash game into an HTML5 game using Workinman's engine. It's a point and click adventure game that takes Spongebob on a quest around Bikini Bottom. The player can take quests from characters and play minigames to complete them.</p> <p>I was originally in charge of recreating the minigames as my first task at Workinman. After that was done and both of the other programmers moved onto other projects, I had to take over completing the rest of the game and fixing bugs until we were ready to release the game.</p>"]
+        },
+        {
             "urlTitle": "dogsouls",
             "title": "Dog Souls",
             "backgroundImage": "../projectimages/dogsoulsbg.png",
@@ -37,13 +57,24 @@
                         "<p>I worked on the fish's mechanics and movements, the food and poop, balancing the fish and food versus money gain, and I made all of the sprites, backgrounds, and animations. We used Phaser.js to display the sprites and give them physics attributes which was easy to learn. The animations were also easily implemented because of this useful library. We wanted to capture the feeling of taking care of a pet, so we thought cleaning the tank would be a good way to interact, hence the poop. We enjoyed how humorous it was to get money from cleaning up after the fish and made creating the shop system fun.</p> "]
         },
         {
+            "urlTitle": "sense3",
+            "title": "Sense3",
+            "backgroundImage": "../projectimages/sense3bg.png",
+            "githubLink": "",
+            "playLink": "",
+            "video": "PoPf1r1ljnQ",
+            "images": [],
+            "content": ["<p>I worked on this game as a 3D artist with 2 other artists and five programmers. It's a Unity endless runner game where the player must collect music by following the sounds in their headphones.</p>",
+                        "<p>I made the 3D models and textures for the obstacles.</p>"]
+        },
+        {
             "urlTitle": "asteroids",
             "title": "Asteroids",
             "backgroundImage": "../projectimages/asteroidsbg.png",
             "githubLink": "",
             "playLink": "",
             "video": "",
-            "images": ["<img src='../projectimages/asteroidstitlescreen.png'>", "<img src='../projectimages/asteroidsshot1'>", "<img src='../projectimages/asteroidsshot2'>"],
+            "images": ["<img src='../projectimages/asteroidstitlescreen.png'>", "<img src='../projectimages/asteroidsshot1.png'>", "<img src='../projectimages/asteroidsshot2.png'>"],
             "content": ["<p>What started as a class project to recreate Asteroids in Processing turned into my own solo passion project. I was inspired by this assignment to make a much deeper game than the original which included ship upgrades, different control styles, and different obstacles to shoot.</p>",
                         "<p>While I was working, I decided to ask my brother, Aaron Lockhart, if he could create sounds and music for the game. He was able to create the calm, relaxing audio in the game that really makes the atmosphere. Making Asteroids taught me how to use vectors for steering and movement and also I learned a lot about implementing audio into Processing.</p> "]
         },
@@ -54,7 +85,7 @@
             "githubLink": "https://github.com/pxl1778/Armoire",
             "playLink": "",
             "video": "",
-            "images": ["<img src='../projectimages/armoiretitlescreen.png'>", "<img src='../projectimages/armoireshot1'>", "<img src='../projectimages/armoireshot2'>"],
+            "images": ["<img src='../projectimages/armoiretitlescreen.png'>", "<img src='../projectimages/armoireshot1.png'>", "<img src='../projectimages/armoireshot2.png'>"],
             "content": ["<p>Armoire is an action adventure 2D platforming game where you grow bigger by finding armor and putting it on without taking any off and battling other enemies for their armor. I had been wanting to make a game with this concept of gaining more and more armor to power up for a long time, so I was really excited to be able to work on this project with some friends to start off a prototype.</p>",
                         "<p>I worked on this game with two other people in Monogame in Visual Studio for the Imagine Cup 2015 hackathon that the Rochester Institute of Technology was holding locally. I worked on all of the gameplay mechanics and programming the animations.</p> ",
                         "<p>One of our biggest challenges was scaling the camera properly so the player stayed in the focus of the camera and got bigger in proportion while everything else appeared smaller. I learned a lot about the camera and spritebatch drawing in Monogame. I do plan on continuing the game to have a full adventure game when I'm done with it.</p> "]

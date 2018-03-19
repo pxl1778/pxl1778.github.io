@@ -108,7 +108,7 @@ a{
 }
 
 .disabledLink{
-	color: #000000;
+	color: #1D2333;
 	cursor: default;
 }
 
@@ -136,6 +136,13 @@ a{
 	float: right;
 	margin: 20px;
 	margin-right: 0px;
+}
+.youtube{
+	width: 100%;
+	height: fit-content;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 10px;
 }
 
 @media screen and (max-width: 992px){
