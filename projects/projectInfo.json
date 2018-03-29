@@ -2,6 +2,17 @@
     "projects": 
     [
         {
+            "urlTitle": "lighthouse",
+            "title": "Lighthouse",
+            "backgroundImage": "../projectimages/lighthousebg.png",
+            "githubLink": "https://github.com/pxl1778/Lighthouse",
+            "playLink": "",
+            "video": "JoDhJX0E7Ww",
+            "images": [],
+            "content": ["<p>Lighthouse is a personal project that started with me wanting to play around with shaders and has developed into a puzzle adventure game. I've been working on it since November 2017 in between work and school and will continue to work on it on my own. The main character model was done by John Ho.</p>",
+                        "<p>The main mechanic is moving certain objects that are near Luke (the player character) using telekinesis. Emitting a sphere around Luke, he can check what he can move nearby. Then, by clicking and dragging, the player can move the object. I want to create many environmental puzzles for the player to solve.</p>"]
+        },
+        {
             "urlTitle": "paperbattle",
             "title": "Paper Battle",
             "backgroundImage": "../projectimages/paperbattlebg.png",

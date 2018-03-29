@@ -2,6 +2,17 @@
 
 window.onload = function(){
 	var current = "";
+	
+	document.getElementById("lighthousebubble").onmouseover = function(e){
+		if(current != "#lighthousebg")
+		{
+			$('#lighthousebg').css("z-index", "-2");
+			$("#lighthousebg").fadeIn("slow");
+			$(current).css("z-index", "-3");
+			$(current).fadeOut();
+			current = "#lighthousebg";
+		}
+	}
 	document.getElementById("paperbattlebubble").onmouseover = function(e){
 		if(current != "#paperbattlebg")
 		{
@@ -72,16 +83,16 @@ window.onload = function(){
 			current = "#aquaticparentingbg";
 		}
 	}
-	document.getElementById("armoirebubble").onmouseover = function(e){
-		if(current != "#armoirebg")
-		{
-			$('#armoirebg').css("z-index", "-2");
-			$("#armoirebg").fadeIn("slow");
-			$(current).css("z-index", "-3");
-			$(current).fadeOut();
-			current = "#armoirebg";
-		}
-	}
+	// document.getElementById("armoirebubble").onmouseover = function(e){
+	// 	if(current != "#armoirebg")
+	// 	{
+	// 		$('#armoirebg').css("z-index", "-2");
+	// 		$("#armoirebg").fadeIn("slow");
+	// 		$(current).css("z-index", "-3");
+	// 		$(current).fadeOut();
+	// 		current = "#armoirebg";
+	// 	}
+	// }
 	document.getElementById("asteroidsbubble").onmouseover = function(e){
 		if(current != "#asteroidsbg")
 		{
