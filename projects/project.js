@@ -41,6 +41,13 @@ window.onload = function(){
                         e.preventDefault();
                     });
                 }
+                //quick info
+                if(data.projects[i].quickInfo != null){
+                    $('#teamSize').append("  " + data.projects[i].quickInfo[0]);
+                    $('#length').append("  " + data.projects[i].quickInfo[1]);
+                    $('#tools').append(data.projects[i].quickInfo[2]);
+                    $('#self').append("  " + data.projects[i].quickInfo[3]);
+                }
                 //content
                 if(data.projects[i].images.length >0){
                     $('#margins').append("<div class='topImage'>" + data.projects[i].images[0] + "</div>");

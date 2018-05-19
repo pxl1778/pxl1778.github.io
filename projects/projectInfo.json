@@ -8,6 +8,7 @@
             "githubLink": "https://github.com/pxl1778/Lighthouse",
             "playLink": "",
             "video": "JoDhJX0E7Ww",
+            "quickInfo": ["Solo", "Current Project", "Unity, Maya", "Everything"],
             "images": [],
             "content": ["<p>Lighthouse is a personal project that started with me wanting to play around with shaders and has developed into a puzzle adventure game. I've been working on it since November 2017 in between work and school and will continue to work on it on my own. The main character model was done by John Ho.</p>",
                         "<p>The main mechanic is moving certain objects that are near Luke (the player character) using telekinesis. Emitting a sphere around Luke, he can check what he can move nearby. Then, by clicking and dragging, the player can move the object. I want to create many environmental puzzles for the player to solve.</p>"]
@@ -19,6 +20,7 @@
             "githubLink": "",
             "playLink": "http://www.nick.com/mash-ups/games/nickelodeon-paper-battle-multiplayer/",
             "video": "uc_XWIEEJWI",
+            "quickInfo": ["2 Programmers, 3 Artists/Animators", "2 Months", "HTML5 In-House Engine", "Gameplay Programmer, UI"],
             "images": [],
             "content": ["<p>Nickelodeon Paper Battle is a multiplayer online fighting game where the players battle each other with items found in Nickelodeon shows. I worked with one programmer and three artists at Workinman Interactive to create this HTML5 game.</p><p>I worked on the scoring system, creating many of the items and how the affect players, and implementing the UI in game and in the menus. This was the second game I worked on at Workinman, so I was used to the engine we were using and made it easy to get the game completed quickly.</p>"]
         },
@@ -29,6 +31,7 @@
             "githubLink": "",
             "playLink": "http://www.nick.com/mash-ups/games/spongebobs-next-big-adventure/",
             "video": "",
+            "quickInfo": ["3 Programmers, 1 Artist", "2 Months", "HTML5 In-House Engine", "Gameplay Programmer, Polishing"],
             "images": [],
             "content": ["<p>I worked on this project while working at Workinman Interactive. I worked with two other programmers and one artist to convert this game from a flash game into an HTML5 game using Workinman's engine. It's a point and click adventure game that takes Spongebob on a quest around Bikini Bottom. The player can take quests from characters and play minigames to complete them.</p> <p>I was originally in charge of recreating the minigames as my first task at Workinman. After that was done and both of the other programmers moved onto other projects, I had to take over completing the rest of the game and fixing bugs until we were ready to release the game.</p>"]
         },
@@ -39,6 +42,7 @@
             "githubLink": "https://github.com/k-idzik/Dog-Souls",
             "playLink": "",
             "video": "",
+            "quickInfo": ["5 Programmers", "1.5 Months", "Unity", "Gameplay Programmer/Art"],
             "images": [],
             "content": ["<p>This game was a project I worked on for a class with 4 other people using Unity. It's a top down action game where the player plays as a dog after an apocalypse where all of the humans are gone and there are only strange mechanical beasts that you must fend off. The player moves around the world trying to find the next boss battle and the goal is to beat them all.</p>",
                         "<p>My role was to integrate attacking and animations into the main character. I had learned how to fix collision boxes onto frames of animations from the previous game I worked on in Unity, Huebert's Peril. So this wasn't terribly difficult to impleent in this project. I also helped with some of the character's movements and attacks.</p> ",
@@ -51,6 +55,7 @@
             "githubLink": "https://github.com/pxl1778/GDD-II-Project-2",
             "playLink": "",
             "video": "",
+            "quickInfo": ["5 Programmers", "1.5 Months", "Unity", "Gameplay Programmer"],
             "images": [],
             "content": ["<p>Huebert's Peril is a 2D platformer made in Unity with a team size of five. The player controls the character Huebert who is navigating a dungeon to find all of the pigments of color to revive his dog. There are enemies to fight against and obstacles to surpass, but there's a twist. Every room you enter changes color which affects different abilities of the player and enemies. Once te player collects all six of the colored pigments, the dog is rescued and Huebert escapes his dog's peril!</p>",
                         "<p>I took care of the character's movements, attacks, animations, collisions, and color changes. It was my first time creating a 2D character player in Unity and I had some issues tweaking the physics for it. In the end, I'm not entirely happy with how the movements are, but for the time alotted, it worked fine. I created animations for the charcter's attacks that had different sized collision boxes for each frame. Implementing these became fun to do once I got the hang of it. I also worked on changing colors between rooms and on the screen in each room. Our original idea involved color changing mechanics that would change the way the player had to move around and we succeeded!</p> ",
@@ -63,6 +68,7 @@
             "githubLink": "https://github.com/pxl1778/FishFeeder",
             "playLink": "https://people.rit.edu/pxl1778/AquaticParenting/",
             "video": "",
+            "quickInfo": ["2 Programmers", "1.5 Months", "HTML5", "Gameplay Programmer, AI"],
             "images": [],
             "content": ["<p>This is a game that I made with a friend for a class project using Javascript, Canvas, and Phaser.js. My friend, Sara Artese, and I wanted to create a game where the player could casually take care of fish with little stressful and feel at peace. I believe we achieved that even though we weren't able to fulfill exactly what we wanted. Requirements for the project forced us to add more game elements and a lose state which we didn't want the player to have to deal with. In the end, it made for a more interesting experience for players.</p>",
                         "<p>I worked on the fish's mechanics and movements, the food and poop, balancing the fish and food versus money gain, and I made all of the sprites, backgrounds, and animations. We used Phaser.js to display the sprites and give them physics attributes which was easy to learn. The animations were also easily implemented because of this useful library. We wanted to capture the feeling of taking care of a pet, so we thought cleaning the tank would be a good way to interact, hence the poop. We enjoyed how humorous it was to get money from cleaning up after the fish and made creating the shop system fun.</p> "]
@@ -74,6 +80,7 @@
             "githubLink": "",
             "playLink": "",
             "video": "PoPf1r1ljnQ",
+            "quickInfo": ["5 Programmers, 3 Modelers", "6 Months", "HTML5 In-House Engine", "3D Modeling"],
             "images": [],
             "content": ["<p>I worked on this game as a 3D artist with 2 other artists and five programmers. It's a Unity endless runner game where the player must collect music by following the sounds in their headphones.</p>",
                         "<p>I made the 3D models and textures for the obstacles.</p>"]
@@ -85,6 +92,7 @@
             "githubLink": "",
             "playLink": "",
             "video": "",
+            "quickInfo": ["Solo", "1 Week", "Processing", "Everything"],
             "images": ["<img src='../projectimages/asteroidstitlescreen.png'>", "<img src='../projectimages/asteroidsshot1.png'>", "<img src='../projectimages/asteroidsshot2.png'>"],
             "content": ["<p>What started as a class project to recreate Asteroids in Processing turned into my own solo passion project. I was inspired by this assignment to make a much deeper game than the original which included ship upgrades, different control styles, and different obstacles to shoot.</p>",
                         "<p>While I was working, I decided to ask my brother, Aaron Lockhart, if he could create sounds and music for the game. He was able to create the calm, relaxing audio in the game that really makes the atmosphere. Making Asteroids taught me how to use vectors for steering and movement and also I learned a lot about implementing audio into Processing.</p> "]
@@ -96,6 +104,7 @@
             "githubLink": "https://github.com/pxl1778/Armoire",
             "playLink": "",
             "video": "",
+            "quickInfo": ["2 Programmers, 1 Artist", "2 Days", "Monogame C#", "Gameplay Programmer"],
             "images": ["<img src='../projectimages/armoiretitlescreen.png'>", "<img src='../projectimages/armoireshot1.png'>", "<img src='../projectimages/armoireshot2.png'>"],
             "content": ["<p>Armoire is an action adventure 2D platforming game where you grow bigger by finding armor and putting it on without taking any off and battling other enemies for their armor. I had been wanting to make a game with this concept of gaining more and more armor to power up for a long time, so I was really excited to be able to work on this project with some friends to start off a prototype.</p>",
                         "<p>I worked on this game with two other people in Monogame in Visual Studio for the Imagine Cup 2015 hackathon that the Rochester Institute of Technology was holding locally. I worked on all of the gameplay mechanics and programming the animations.</p> ",

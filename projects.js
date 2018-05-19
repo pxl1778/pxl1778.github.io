@@ -33,16 +33,16 @@ window.onload = function(){
 			current = "#nextbigadventurebg";
 		}
 	}
-	document.getElementById("dogsoulsbubble").onmouseover = function(e){
-		if(current != "#dogsoulsbg")
-		{
-			$('#dogsoulsbg').css("z-index", "-2");
-			$("#dogsoulsbg").fadeIn("slow");
-			$(current).css("z-index", "-3");
-			$(current).fadeOut();
-			current = "#dogsoulsbg";
-		}
-	}
+	// document.getElementById("dogsoulsbubble").onmouseover = function(e){
+	// 	if(current != "#dogsoulsbg")
+	// 	{
+	// 		$('#dogsoulsbg').css("z-index", "-2");
+	// 		$("#dogsoulsbg").fadeIn("slow");
+	// 		$(current).css("z-index", "-3");
+	// 		$(current).fadeOut();
+	// 		current = "#dogsoulsbg";
+	// 	}
+	// }
 	document.getElementById("huebertsperilbubble").onmouseover = function(e){
 		if(current != "#huebertsperilbg")
 		{
@@ -93,16 +93,16 @@ window.onload = function(){
 	// 		current = "#armoirebg";
 	// 	}
 	// }
-	document.getElementById("asteroidsbubble").onmouseover = function(e){
-		if(current != "#asteroidsbg")
-		{
-			$('#asteroidsbg').css("z-index", "-2");
-			$("#asteroidsbg").fadeIn("slow");
-			$(current).css("z-index", "-3");
-			$(current).fadeOut();
-			current = "#asteroidsbg";
-		}
-	}
+	// document.getElementById("asteroidsbubble").onmouseover = function(e){
+	// 	if(current != "#asteroidsbg")
+	// 	{
+	// 		$('#asteroidsbg').css("z-index", "-2");
+	// 		$("#asteroidsbg").fadeIn("slow");
+	// 		$(current).css("z-index", "-3");
+	// 		$(current).fadeOut();
+	// 		current = "#asteroidsbg";
+	// 	}
+	// }
 	/*document.getElementById("audiovisualizerbubble").onmouseover = function(e){
 		if(current != "#audiovisualizerbg")
 		{
