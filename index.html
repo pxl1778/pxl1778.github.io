@@ -5,23 +5,23 @@
 	<link href='https://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width">
-	<title>Peter Lockhart</title>
+	<title>Projects</title>
 	<link type="text/css" rel="stylesheet" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src = "projects.js"></script>
 </head>
-<body style="background-color: #273045">
-	<header>
-		<div class="imagebackground" style="background-image: url('indexPhoto.jpg');"></div>
-		<!--<img id="backgroundimage" src="indexPhoto.jpg" alt="background image"/>-->
+<body>
+	<div>
 		<nav>
-			<a href="index.html">
-			<img src="logotransparent.png" alt="logo" style="height: 100%; width: auto;">
+			<a href="home.html">
+				<img src="logotransparent.png" alt="logo" style="height: 100%; width: auto;">
 			</a>
 			<ul>
 				<li>
-					<div><a id="current" href="index.html">Home</a></div>
+					<div><a href="home.html">Home</a></div>
 				</li>
 				<li>
-					<div><a href="projects.html">Projects</a></div>
+					<div><a id="current" href="index.html">Projects</a></div>
 				</li>
 				<li>
 					<div><a href="resume.html">Resume</a></div>
@@ -31,11 +31,150 @@
 				</li>
 			</ul>
 		</nav>
-		<div class="navoffset"></div>
-		<div id="titlebubble">
-			<img src="logotransparent.png" alt="logo" style="z-index: 9998; height: 30%; width: auto;" >
-			<h1 id="name">Peter Lockhart</h1>
-			<h2 id="title">Game Developer</h2>
-		</div>
-	</header>
+	</div>
+	<div class="navoffset"></div>
+
+	<div id="lighthousebg" class="imagebackground" style="transform: scaleX(1); display: none; opacity: 1; background-image: url('projectimages/lighthousebg.png'); "></div>
+	<div id="paperbattlebg" class="imagebackground" style="transform: scaleX(1); display: none; opacity: 1; background-image: url('projectimages/paperbattlebg.png'); "></div>
+	<div id="nextbigadventurebg" class="imagebackground" style="transform: scaleX(1); display: none; opacity: 1; background-image: url('projectimages/nextbigadventurebg.png'); "></div>
+	<div id="dogsoulsbg" class="imagebackground" style="transform: scaleX(1); display: none; opacity: 1; background-image: url('projectimages/dogsoulsbg.png'); "></div>	
+	<div id="huebertsperilbg" class="imagebackground" style="transform: scaleX(1); display: none; opacity: 1; background-image: url('projectimages/huebertsperilbg.png'); "></div>	
+	<div id="aperfectyearbg" class="imagebackground" style="transform: scaleX(1); display: none; opacity: 1; background-image: url('projectimages/aperfectyearbg.png'); "></div>
+	<div id="sense3bg" class="imagebackground" style="transform: scaleX(1); display: none; opacity: 1; background-image: url('projectimages/sense3bg.png'); "></div>
+	<div id="aquaticparentingbg" class="imagebackground" style="transform: scaleX(1); display: none; opacity: 1; background-image: url('projectimages/aquaticparentingbg.png'); "></div>
+	<div id="armoirebg" class="imagebackground" style="transform: scaleX(1); display: none; opacity: 1; background-image: url('projectimages/armoirebg.png'); "></div>
+	<div id="asteroidsbg" class="imagebackground" style="transform: scaleX(1); display: none; opacity: 1; background-image: url('projectimages/asteroidsbg.png');"></div>
+	<div id="audiovisualizerbg" class="imagebackground" style="transform: scaleX(1); display: none; opacity: 1; background-image: url('projectimages/audiovisualizerbg.png');"></div>
+	<div id="snakebg" class="imagebackground" style="transform: scaleX(1); display: none; opacity: 1; background-image: url('projectimages/snakebg.png');"></div>
+	<div id="switchbladebg" class="imagebackground" style="transform: scaleX(1); display: none; opacity: 1; background-image: url('projectimages/switchbladebg.png');"></div>
+	<div id="wordventurebg" class="imagebackground" style="transform: scaleX(1); display: none; opacity: 1; background-image: url('projectimages/wordventurebg.png');"></div>
+	<div id="overlay"></div>
+	
+	<div id="content">
+		<ul id="projectList">
+
+			<li>
+				<div id="paperbattlebubble"class="projectbubble">
+					<a href = "projects/projectPage.html?projectTitle=paperbattle">
+					<img src="projectimages/paperbattlebubbleimage.png" alt="Paper Battle Screenshot" title="Paper Battle" />
+					</a>
+				</div>
+				<a href = "projects/projectPage.html?projectTitle=paperbattle"><h1 style="font-size: 13pt">Nickelodeon Paper Battle</h1></a>
+			</li>
+			
+			<li>
+				<div id="nextbigadventurebubble"class="projectbubble">
+					<a href = "projects/projectPage.html?projectTitle=nextbigadventure">
+						<img src="projectimages/nextbigadventurebubbleimage.png" alt="Next Big Adventure Screenshot" title="Next Big Adventure" />
+					</a>
+				</div>
+				<a href = "projects/projectPage.html?projectTitle=nextbigadventure"><h1 style="font-size: 11pt">Spongebob's Next Big Adventure</h1></a>
+			</li>
+
+			<li>
+				<div id="lighthousebubble"class="projectbubble">
+					<a href = "projects/projectPage.html?projectTitle=lighthouse">
+					<img src="projectimages/lighthousebubbleimage.png" alt="Lighthouse Screenshot" title="Lighthouse" />
+					</a>
+				</div>
+				<a href = "projects/projectPage.html?projectTitle=lighthouse"><h1 style="font-size: 13pt">Lighthouse</h1></a>
+			</li>
+
+			<!--<li>
+				<div id="dogsoulsbubble"class="projectbubble">
+					<a href = "projects/projectPage.html?projectTitle=dogsouls">
+					<img src="projectimages/dogsoulsbubbleimage.png" alt="Dog Souls Screenshot" title="Dog Souls" />
+					</a>
+				</div>
+				<a href = "projects/projectPage.html?projectTitle=dogsouls"><h1>Dog Souls</h1></a>
+			</li>-->
+
+			<li>
+				<div id="huebertsperilbubble"class="projectbubble">
+					<a href = "projects/projectPage.html?projectTitle=huebertsperil">
+					<img src="projectimages/huebertsperilbubbleimage.png" alt="Huebert's Peril Screenshot" title="Huebert's Peril" />
+					</a>
+				</div>
+				<a href = "projects/projectPage.html?projectTitle=huebertsperil"><h1>Huebert's Peril</h1></a>
+			</li>
+
+			<!--<li>
+				<div id="aperfectyearbubble"class="projectbubble">
+				<a href = "https://rit.useed.net/projects/509/home">
+				<img src="projectimages/aperfectyearbubbleimage.png" alt="A Perfect Year Screenshot" title="A Perfect Year" />
+				</a>
+			</div>
+			<a href = "https://rit.useed.net/projects/509/home"><h1>A Perfect Year</h1></a>
+				</li>-->
+
+			<li>
+				<div id="sense3bubble"class="projectbubble">
+				<a href = "projects/projectPage.html?projectTitle=sense3">
+				<img src="projectimages/sense3bubbleimage.png" alt="Sense3 Screenshot" title="Sense3" />
+				</a>
+			</div>
+			<a href = "projects/projectPage.html?projectTitle=sense3"><h1>Sense3</h1></a>
+			</li>
+				
+			<li>
+				<div id="aquaticparentingbubble"class="projectbubble">
+				<a href = "projects/projectPage.html?projectTitle=aquaticParenting">
+				<img src="projectimages/aquaticparentingbubbleimage.png" alt="Aquatic Parenting Screenshot" title="Aquatic Parenting" />
+				</a>
+			</div>
+			<a href = "projects/projectPage.html?projectTitle=aquaticParenting"><h1>Aquatic Parenting</h1></a>
+			</li>
+				
+			<!--<li>
+				<div id="armoirebubble"class="projectbubble">
+				<a href = "projects/projectPage.html?projectTitle=armoire">
+			<img src="projectimages/armoirebubbleimage.png" alt="Armoire Screenshot" title="Armoire" />
+				</a>
+			</div>
+			<a href = "projects/projectPage.html?projectTitle=armoire"><h1>Armoire</h1></a>
+				</li>
+				
+			<li><div id="asteroidsbubble" class="projectbubble">
+				<a href = "projects/projectPage.html?projectTitle=asteroids">
+				<img src="projectimages/asteroidsbubbleimage.png" alt="Asteroids Screenshot" title="Asteroids" />
+				</a>
+			</div>
+			<a href = "projects/projectPage.html?projectTitle=asteroids"><h1>Asteroids</h1></a>
+			</li>
+			
+			<li><div id="audiovisualizerbubble" class="projectbubble">
+			<a href="projects/audiovisualizer.html">
+			<img src="projectimages/audiovisualizerbubbleimage.png" alt="Audio Visualizer Screenshot" title="Audio Visualizer" />
+				</a>
+			</div>
+			<a href="projects/audiovisualizer.html"><h1>Audio Visualizer</h1></a>
+			</li>-->
+			
+			<li>
+				<div id="snakebubble"class="projectbubble">
+				<a href = "projects/Snake/index.html">
+				<img src="projectimages/snakebubbleimage.png" alt="Snake Screenshot" title="Snake" />
+				</a>
+			</div>
+			<a href = "projects/Snake/index.html"><h1>Snake</h1></a>
+				</li>
+			
+			<!--s<li><div id="switchbladebubble" class="projectbubble">
+			<a href="projects/switchblade.html">
+			<img src="projectimages/switchbladebubbleimage.jpg" alt="Switchblade Screenshot" title="Switchblade" />
+				</a>
+			</div>
+			<a href="projects/switchblade.html"><h1>SwitchBlade</h1></a>
+			</li>
+			
+			<li><div id="wordventurebubble" class="projectbubble">
+			<a href="projects/wordventure.html">
+			<img src="projectimages/wordventurebubbleimage.png" alt="Wordventure Screenshot" title="Wordventure" />
+				</a>
+			</div>
+			<a href="projects/wordventure.html"><h1>WordVenture</h1></a>
+			</li>-->
+		</ul>
+	</div>
+	
 </body>
