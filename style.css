@@ -99,7 +99,24 @@ nav ul li a#current{
 	margin-top: 10%;
 }
 
+#titlebubbleprojects{
+	background-color: black;
+	opacity: .6;
+	margin-left: 100px;
+	border-radius: 100%;
+	height: 450px;
+	width: 450px;
+	overflow: hidden;
+	text-align: center;
+	margin-top: 10%;
+}
+
 #titlebubble img{
+	margin: auto;
+	margin-top: 50px;
+}
+
+#titlebubbleprojects img{
 	margin: auto;
 	margin-top: 50px;
 }
@@ -394,23 +411,7 @@ footer a{
 		border-radius: 0%;
 	}
 	
-	#name{
-		font-size: 35pt;
-		left: 0px;
-		margin: 0%;
-		top: 27%;
-		float: none;
-		right: 0%;
-	}
 	
-	#title{
-		font-size: 25pt;
-		left: 0px;
-		margin: 0%;
-		top: 55%;
-		float: none;
-		right: 0%;
-	}
 	
 	#backgroundimage{
 		height: 400px;
@@ -532,4 +533,27 @@ footer a{
 	.projectblock div p{
 		font-size: 15px;
 	}
+	#titlebubbleprojects{
+		width: 350px;
+		height: 350px;
+	}
+
+	#name{
+		font-size: 35pt;
+		left: 0px;
+		margin: 0%;
+		top: 27%;
+		float: none;
+		right: 0%;
+	}
+	
+	#title{
+		font-size: 25pt;
+		left: 0px;
+		margin: 0%;
+		top: 55%;
+		float: none;
+		right: 0%;
+	}
+	
 }
