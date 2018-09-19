@@ -7,11 +7,12 @@
             "backgroundImage": "../projectimages/lighthousebg.png",
             "githubLink": "https://github.com/pxl1778/Lighthouse",
             "playLink": "",
-            "video": "JoDhJX0E7Ww",
-            "quickInfo": ["Solo", "Current Project", "Unity, Maya", "Everything"],
+            "video": "H-moYc5u6ro",
+            "quickInfo": ["Solo", "November 2017 - Present", "Unity, Maya", "Everything"],
             "images": [],
-            "content": ["<p>Lighthouse is a personal project that started with me wanting to play around with shaders and has developed into a puzzle adventure game. I've been working on it since November 2017 in between work and school and will continue to work on it on my own. The main character model was done by John Ho.</p>",
-                        "<p>The main mechanic is moving certain objects that are near Luke (the player character) using telekinesis. Emitting a sphere around Luke, he can check what he can move nearby. Then, by clicking and dragging, the player can move the object. I want to create many environmental puzzles for the player to solve.</p>"]
+            "content": ["<p>Lighthouse is a personal project that started with wanting to play around with shaders and has developed into a puzzle narrative game. I've been working on it since November 2017 in between work and school and will continue to work on it on my own.</p>",
+                        "<p>I was recently able to show it at the Rochester Games Festival 2018 where I was able to get a lot of good feedback. It's really motivated me to continue working and adding more content.</p>",
+                        "<p>The main mechanic is moving certain objects that are near Luke (the player character) using telekinesis. Emitting a sphere around Luke, he can check what he can move nearby. Then, by clicking, the player can push the object. As the game continues, the player will gain more ways to move and manipulate the environment. I want to create many environmental puzzles for the player to solve.</p>"]
         },
         {
             "urlTitle": "paperbattle",
