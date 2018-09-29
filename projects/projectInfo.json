@@ -11,8 +11,8 @@
             "quickInfo": ["Solo", "November 2017 - Present", "Unity, Maya", "Everything"],
             "images": [],
             "content": ["<p>Lighthouse is a personal project that started with wanting to play around with shaders and has developed into a puzzle narrative game. I've been working on it since November 2017 in between work and school and will continue to work on it on my own.</p>",
-                        "<p>I was recently able to show it at the Rochester Games Festival 2018 where I was able to get a lot of good feedback. It's really motivated me to continue working and adding more content.</p>",
-                        "<p>The main mechanic is moving certain objects that are near Luke (the player character) using telekinesis. Emitting a sphere around Luke, he can check what he can move nearby. Then, by clicking, the player can push the object. As the game continues, the player will gain more ways to move and manipulate the environment. I want to create many environmental puzzles for the player to solve.</p>"]
+                        "<p>The main mechanic is moving certain objects that are near Luke (the player character) using telekinesis. Emitting a sphere around Luke, he can check what he can move nearby. Then, by clicking, the player can push the object. As the game continues, the player will gain more ways to move and manipulate the environment. I'm working towards creating many environmental puzzles for the player to solve.</p>",
+                        "<p>I was recently able to show it at the Rochester Games Festival 2018 where I was able to get a lot of good feedback and responses. It has helped to motivate me to continue working and more ideas and content.</p>"]
         },
         {
             "urlTitle": "paperbattle",
@@ -34,7 +34,7 @@
             "video": "",
             "quickInfo": ["3 Programmers, 1 Artist", "2 Months", "HTML5 In-House Engine", "Gameplay Programmer, Polishing"],
             "images": [],
-            "content": ["<p>I worked on this project while working at Workinman Interactive. I worked with two other programmers and one artist to convert this game from a flash game into an HTML5 game using Workinman's engine. It's a point and click adventure game that takes Spongebob on a quest around Bikini Bottom. The player can take quests from characters and play minigames to complete them.</p> <p>I was originally in charge of recreating the minigames as my first task at Workinman. After that was done and both of the other programmers moved onto other projects, I had to take over completing the rest of the game and fixing bugs until we were ready to release the game.</p>"]
+            "content": ["<p>I worked on this project while working at Workinman Interactive. I worked with two other programmers and one artist to convert this game from a flash game into an HTML5 game using Workinman's engine. It's a point and click adventure game that takes Spongebob on a quest around Bikini Bottom. The player can take quests from characters and play minigames to complete them.</p> <p>I was originally in charge of recreating the minigames as my first task at Workinman. After that was done and both of the other programmers moved onto other projects, I took over completing the rest of the game and fixing bugs until we were ready to release the game.</p>"]
         },
         {
             "urlTitle": "dogsouls",
