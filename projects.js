@@ -33,6 +33,16 @@ window.onload = function(){
 			current = "#nextbigadventurebg";
 		}
 	}
+	document.getElementById("insanimalsbubble").onmouseover = function(e){
+		if(current != "#insanimalsbg")
+		{
+			$('#insanimalsbg').css("z-index", "-2");
+			$("#insanimalsbg").fadeIn("slow");
+			$(current).css("z-index", "-3");
+			$(current).fadeOut();
+			current = "#insanimalsbg";
+		}
+	}
 	// document.getElementById("dogsoulsbubble").onmouseover = function(e){
 	// 	if(current != "#dogsoulsbg")
 	// 	{

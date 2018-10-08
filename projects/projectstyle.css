@@ -164,6 +164,9 @@ footer{
 		margin-left: 10px;
 		margin-right: 100px;
 	}
+	iframe{
+		width: 560px;
+	}
 	
 }
 
@@ -174,6 +177,11 @@ footer{
 	
 	nav ul li a{
 		font-size: 13pt;
+	}
+}
+@media screen and (max-width: 590px){
+	iframe{
+		width: 90%!important;
 	}
 }
 
@@ -213,5 +221,11 @@ footer{
 	#description p{
 		font-size: 12pt;
 		line-height: 30px;
+	}
+}
+
+@media screen and (max-width: 400px){
+	#quickInfo{
+		width: 100%!important;
 	}
 }
